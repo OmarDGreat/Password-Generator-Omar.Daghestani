@@ -27,6 +27,7 @@ function userPrompts() {
   var confirmUpper = confirm("do you want upper case?");
   var confirmNumeric = confirm("do you want numbers?");
   var confirmSymbol = confirm("do you want symbols?");
+  
 
   const randomFunc = {
     lower: confirmLower,
